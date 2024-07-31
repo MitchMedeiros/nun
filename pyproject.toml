@@ -3,8 +3,8 @@ requires = ['hatchling', 'hatch-fancy-pypi-readme>=22.5.0']
 build-backend = "hatchling.build"
 
 [project]
-name = "mypackage"
-description = ""
+name = "nun"
+description = "A Python package for the most blessid."
 authors = [{name = "Mitchell Medeiros"}]
 license = "MIT"
 requires-python = ">=3.10"
@@ -24,8 +24,6 @@ classifiers = [
     'Operating System :: Microsoft :: Windows',
     'Typing :: Typed',
     'Intended Audience :: Developers',
-    'Intended Audience :: Science/Research',
-    'Topic :: Scientific/Engineering',
 ]
 dependencies = []
 dynamic = ["version"]
@@ -36,7 +34,6 @@ dev = [
     "pytest-cov>=5.0.0",
     "black>=24.0.0",
     "ruff>=0.5.0",
-    "ipykernel>=6.0.0",
 ]
 docs = [
     "python-dotenv==1.0.1",
@@ -52,15 +49,15 @@ docs = [
 ]
 
 [project.urls]
-Documentation = "https://mypackage.readthedocs.io/en/latest/api_reference"
-Changelog = "https://mypackage.readthedocs.io/en/latest/release_notes"
-Repository = "https://github.com/MitchMedeiros/mypackage"
+Documentation = "https://nun.readthedocs.io/en/latest/api_reference"
+Changelog = "https://nun.readthedocs.io/en/latest/release_notes"
+Repository = "https://github.com/MitchMedeiros/nun"
 
 [tool.hatch.build.targets.wheel]
-packages = ["mypackage"]
+packages = ["nun"]
 
 [tool.hatch.version]
-path = "mypackage/__init__.py"
+path = "nun/__init__.py"
 pattern = "^__version__ = ['\"](?P<version>[^'\"]*)['\"]"
 
 [tool.pytest.ini_options]
