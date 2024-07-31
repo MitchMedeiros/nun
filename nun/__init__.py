@@ -1,6 +1,6 @@
 from .make_prayer import pray
 
-__version__ = "1.0.1"
+__version__ = "1.1.0"
 __title__ = "nun"
 __author__ = "Mitchell Medeiros"
 __license__ = "MIT"

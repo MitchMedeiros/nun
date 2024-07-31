@@ -29,7 +29,7 @@
 
 <br>
 
-nun is a Python package for the most blessid. It is still in early development :)
+A Python package still in early development :)
 
 <h2>Installing</h2>
 

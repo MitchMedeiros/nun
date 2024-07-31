@@ -1,3 +1,9 @@
+## v1.1.0 (2024-07-31)
+
+[GitHub release](https://github.com/MitchMedeiros/mypackage/tag/v1.0.0)
+
+- Made the source code visibility public
+
 ## v1.0.1 (2024-07-31)
 
 [GitHub release](https://github.com/MitchMedeiros/mypackage/tag/v1.0.0)
